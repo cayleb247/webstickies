@@ -1,0 +1,10 @@
+{
+    "name": "WebStickies",
+    "description": "An extension to create sticky notes for any website.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/icon.png"
+    }
+  }

@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-h1, h2, h3, p, li {
+h1, h2, h3, p, li, button {
     font-family: "Raleway", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -24,11 +24,11 @@ h3 {
 }
 
 .popup-body {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 header {
-    width: 20rem;
+    width: 16rem;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
@@ -54,4 +54,38 @@ li {
 li:hover {
     color: rgb(136, 136, 136);
     cursor: pointer;
+}
+
+.note-editor {
+}
+
+.note-editor form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-editor form button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #feff9c;
+    height: 15rem;
+    width: 15rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    resize: none;
 }

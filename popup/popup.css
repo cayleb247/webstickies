@@ -57,9 +57,12 @@ li:hover {
 }
 
 .note-editor {
+    display: flex;
+    flex-direction: column;
 }
 
 .note-editor form {
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
